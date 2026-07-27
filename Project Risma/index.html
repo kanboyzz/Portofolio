@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__logo">Kantara</a>
+
+      <nav class="navbar__nav" id="navMenu">
+        <ul class="navbar__list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">Tentang</a></li>
+          <li><a href="#skills" class="nav-link">Skill</a></li>
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Buka menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="section hero">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow">UI/UX DESIGNER & DEVELOPER</p>
+        <h1 class="hero__title">Halo, saya Kan</h1>
+        <p class="hero__subtitle">Saya membangun website dengan cepat dan terampil menarik</p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">Lihat projects</a>
+          <a href="#contact" class="btn btn--outline">Hubungi Saya</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section__title">Tentang Saya</h2>
+        <div class="about__content">
+          <div class="about__image"><img src="WhatsApp Image 2026-04-17 at 14.16.10.jpeg" alt="">Okantara Agoesti Setiawan</div>
+          <div class="about__text">Saya seorang developer yang suka membuat project kreatif dan game kecil-kecilan. Berpengalaman dengan HTML, CSS, JavaScript, dan Python.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section__title">Keahlian yang saya kuasai</h2>
+        <div class="skills__grid" id="skillsGrid">
+          <!-- item skill akan ditambahkan di sini -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section__title">Project yang sedang dan sudah saya kerjakan</h2>
+        <div class="projects__grid" id="projectsGrid">
+          <!-- card proyek akan ditambahkan di sini -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section__title">Hubungi saya</h2>
+        <form class="contact__form" id="contactForm">
+          <div class="form__group">
+            <label for="name">Kantara.Dev</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div class="form__group">
+            <label for="email">kanboyzz69@gmail.com</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form__group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__text">© 2026 Kan. Semua hak dilindungi.</p>
+      <div class="footer__socials" id="footerSocials">
+        <!-- link sosial media -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
